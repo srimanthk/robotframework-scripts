@@ -30,7 +30,7 @@ Log in and Log out facebook
     Input Text    email    ${email}
     Input Password    pass    ${password}
     Click Button    Log In
-    Wait Until Page Contains    shailaja
+    Wait Until Page Contains    Home
     Click Element    class:_3ixn
     Click Element    id:userNavigationLabel
     Wait Until Page Contains    Log Out
